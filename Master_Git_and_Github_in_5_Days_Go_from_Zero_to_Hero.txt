@@ -1,0 +1,34 @@
+Getting started with Git and Github
+
+### Github Configuration ###
+
+To get current configured username: 
+git config user.name
+
+To get current configured email:
+git config user.email
+
+To change username, email:
+git config --global user.name "Faraz"
+git config --global user.email "farazmoin.uk@gmail.com"
+
+### Initialising a folder as repo ###
+
+git init
+
+### Checking whether a folder is a repository ###
+
+git status 
+
+### Clone a public or private repository ###
+
+git clone repourl 
+git clone pat@repourl 
+
+### What does git add, commit, and push does? ###
+
+git add filename adds the file from the working directory to the staging area
+git commit -m 'message' will commit this file from the staging area to repository 
+git push will finally push this repository to github
+git pull will pull the repository, let's say you're working on a different machine. 
+
