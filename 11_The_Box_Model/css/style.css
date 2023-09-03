@@ -1,0 +1,7 @@
+body {background-color: #463d36; font-family: sans-serif; color: #463d36;}
+#container {width: 600px; padding: 40px; background-color: white; border-radius: 20px; margin: 100px auto;}
+h2 {color: #a6192e; font-size: 28px; margin-bottom: 0;}
+h1 {font-size: 40px; font-weight: lighter; margin-top: 0;}
+p {font-size: 28px; font-weight: lighter;}
+button {background-color: #463d36; color: white; font-size: 24px; padding: 30px 40px;}
+h2, h1, button {text-transform: uppercase;}
