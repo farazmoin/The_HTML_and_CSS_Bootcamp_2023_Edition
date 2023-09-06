@@ -1,0 +1,19 @@
+body {font-family: Cormorant, serif;}
+header {margin: 32px;}
+.gallery {padding: 16px;}
+h1 {display: inline-block; margin: 0 32px 0 0; font-weight: 300;}
+.box h2 {display: inline-block}
+.about h3 {font-size: 40px; font-weight: 300;}
+.about {width: 40%; min-width: 600px; margin: 100px 0 100px 200px;}
+.links {display: inline-block;}
+.links ul {padding: 0; margin: 0;}
+.links li {list-style-type: none; display: inline-block; margin: 0 8px;}
+.links a {text-decoration: none; color: black; font-size: 20px;}
+a.active {border-bottom: 1px solid black;}
+.box img {height: 500px; width: 100%; object-fit: cover;}
+img:hover {opacity: 0.9;}
+.box h2 {margin: 8px 0 16px 0; font-weight: 300;}
+.box {width: 49.75%; display: inline-block; padding: 16px; box-sizing: border-box;}
+.cta {border-bottom: 1px solid black; padding-bottom: 8px; display: inline-block; margin-top: 0;}
+.contact {margin-top: 100px;}
+.contact p {margin: 0; font-size: 20px;}
